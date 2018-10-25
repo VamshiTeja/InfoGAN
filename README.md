@@ -4,7 +4,7 @@ Implementation of InfoGAN in Tensorflow
 Generative Adversarial Netowrks for Unsupervised Learning
 The goal is to unsupervised classification using Info-GAN's
 
-###Environment Setup:
+### Environment Setup:
 1) python 2.7
 2) tensorflow 1.3
 3) numpy
@@ -14,7 +14,7 @@ The goal is to unsupervised classification using Info-GAN's
 7) pickle
 8) tqdm
 
-###Folder structure of the project:
+### Folder structure of the project:
 
 --> model : contains models to train. This contains model for Info GAN and VAE.
 --> preprocess : This folder contains fuctions to read the datasets
@@ -28,8 +28,8 @@ The goal is to unsupervised classification using Info-GAN's
 ----> tester.py: This file is to test trained info-gan.
 
 
-################### TO TRAIN ####################
-1)For Info-GAN:
+### TRAINING
+## 1)For Info-GAN:
 
 run: python train_infogan_plus_w.py
 
@@ -37,7 +37,7 @@ This file doesnt take any arguments. You can change the hyperparameters by editi
 You need to just change dataset argument(either 'kaggle' or 'mammo')
 
 
-2)For VAE:
+## 2)For VAE:
 
 run: python train_vae.py
 
@@ -60,7 +60,7 @@ python train_vae.py \
 
 
 
-################### TO TEST #########################\
+### TESTING \
 To test resuts 
 run python tester.py
 
