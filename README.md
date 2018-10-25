@@ -4,7 +4,7 @@ Implementation of InfoGAN in Tensorflow
 Generative Adversarial Netowrks for Unsupervised Learning
 The goal is to unsupervised classification using Info-GAN's
 
-Environment Setup:
+###Environment Setup:
 1) python 2.7
 2) tensorflow 1.3
 3) numpy
@@ -14,7 +14,7 @@ Environment Setup:
 7) pickle
 8) tqdm
 
-folder structure of the project:
+###Folder structure of the project:
 
 --> model : contains models to train. This contains model for Info GAN and VAE.
 --> preprocess : This folder contains fuctions to read the datasets
