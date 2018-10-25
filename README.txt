@@ -1,6 +1,3 @@
-# InfoGAN
-Implementation of InfoGAN in Tensorflow
-
 Generative Adversarial Netowrks for Unsupervised Learning
 The goal is to unsupervised classification using Info-GAN's
 
